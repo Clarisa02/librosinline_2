@@ -9,3 +9,5 @@ def index(request):
         return render(request,
         'vistaprevia/index.html', {'contenido':contenido,'para_minorista':para_minorista,'para_mayorista':para_mayorista})
 
+def contacto(request):
+        return render(request, 'vistaprevia/contacto.html')
